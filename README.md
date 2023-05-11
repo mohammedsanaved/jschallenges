@@ -11,10 +11,14 @@
 
 <sub>Author:
 <a href="https://www.linkedin.com/in/mohammedsanaved/" target="_blank">Sanaved</a><br>
-<small> April, 2023</small>
+<small> October, 2020</small>
 </sub>
 
 </div>
+
+
+![JS ReAfreasher](./day01challenge.js)
+
 - [JavaScript Refresher](#javascript-refresher)
   - [0. Adding JavaScript to a Web Page](#0-adding-javascript-to-a-web-page)
     - [Inline Script](#inline-script)
