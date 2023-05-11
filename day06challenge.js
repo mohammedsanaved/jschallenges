@@ -59,3 +59,29 @@ function getRandomHexColor() {
   }
   console.log(getRandomHexColor());
 
+  const props = {
+    user:{
+      firstName:'Asabeneh',
+      lastName:'Yetayeh',
+      age:250
+    },
+    post:{
+      title:'Destructuring and Spread',
+      subtitle:'ES6',
+      year:2020
+  },
+  skills:['JS', 'React', 'Redux', 'Node', 'Python']
+  
+  }
+  const {user,post, skills} = props;
+  
+  
+  
+  const {user:{firstName, lastName, age}, post:{title, subtitle, year}, skills:[skillOne, skillTwo, skillThree, skillFour, skillFive]} = props
+  
+  console.log(props);
+//   Rest Operator
+  const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+let [num1, num2, num3, ...rest] = nums
+console.log(num1, num2, num3)
+console.log(rest)

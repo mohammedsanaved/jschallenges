@@ -16,3 +16,31 @@ console.log(webTechs.slice(0,5))
 console.log(webTechs.splice(2, 1));
 
 let tech = webTechs.concat(webTechs2); 
+
+const fullStack = [
+    ['HTML', 'CSS', 'JS', 'React'],
+    ['Node', 'Express', 'MongoDB']
+  ]
+  
+  const [frontEnd, backEnd] = fullStack
+  console.log(frontEnd, backEnd);
+  fullStack[0].push('Java');
+  console.log(fullStack);
+  
+  const countries = [
+    'Germany',
+    'France',
+    'Belgium',
+    'Finland',
+    'Sweden',
+    'Norway',
+    'Denmark',
+    'Iceland',
+  ]
+  let [gem, fra, , ...nordicCountries] = countries
+  // const ['India', 'China', 'Portugal', 'Egypt',...countries] = countries;
+  // console.log(count);
+  console.log(gem, fra, nordicCountries);
+  let world = [...countries,'India', 'China', 'Portugal', 'Egypt'];
+  console.log(world);
+  
