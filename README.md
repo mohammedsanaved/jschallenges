@@ -1,25 +1,20 @@
 <div align="center">
 
-  <h1> 30 Days Of React: JavaScript Refresher</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/Ali/">
+  <h1>JavaScript Refresher</h1>
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/mohammedsanaved/">
     <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
 
-  <a class="header-badge" target="_blank" href="https://twitter.com/Ali">
+  <a class="header-badge" target="_blank" href="https://twitter.com/mosanaved">
     <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Ali?style=social">
   </a>
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/Ali/" target="_blank">Ali Shaikh</a><br>
-<small> October, 2020</small>
+<a href="https://www.linkedin.com/in/mohammedsanaved/" target="_blank">Sanaved</a><br>
+<small> April, 2023</small>
 </sub>
 
 </div>
-
-[<< Day 0](../readMe.md) | [Day 2 >>](../02_Day_Introduction_to_React/02_introduction_to_react.md)
-
-![30 Days of React banner](../images/30_days_of_react_banner_day_1.jpg)
-
 - [JavaScript Refresher](#javascript-refresher)
   - [0. Adding JavaScript to a Web Page](#0-adding-javascript-to-a-web-page)
     - [Inline Script](#inline-script)
