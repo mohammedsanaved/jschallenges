@@ -36,14 +36,14 @@ function ajay() {
 }
 console.log(ajay(1,2,3,4));
 
-function rangile() {
+function rgb() {
     let r = Math.floor(Math.random() * 256);
     let g = Math.trunc(Math.random() * 256);
     let b = Math.floor(Math.random() * 256);
 
     return `rgb(${r},${g},${b})`
 }
-console.log(rangile());
+console.log(rgb());
 
 
 function getRandomHexColor() {
@@ -58,3 +58,4 @@ function getRandomHexColor() {
     return hex;
   }
   console.log(getRandomHexColor());
+
